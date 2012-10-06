@@ -10,7 +10,9 @@ How to use.<br>
 2) Compiling a program<br>
     <i>$ g++ program_name.cpp -o main -L/path/to/library -llib</i><br>
 3) Execute your program<br>
+
     $ <i>./main</i><br>
+
     If you got following error:<br>
     <i>./main: error while loading shared libraries: liblib.so: <br>
     cannot open shared object file: No such file or directory</i><br>
