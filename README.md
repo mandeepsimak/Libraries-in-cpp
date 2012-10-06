@@ -15,8 +15,8 @@ How to use.<br>
     <i>./main: error while loading shared libraries: liblib.so: <br>
     cannot open shared object file: No such file or directory</i><br>
     
-    Then create symbolic link of library:<br>
-    </i>$ ln -s /path/to/library/liblib.so /usr/lib/liblib.so</i><br>
+    Then create symbolic link of library:
+    $ ln -s /path/to/library/liblib.so /usr/lib/liblib.so
     
 <i>lib_main.cpp</i> is a example of using this library.
     
