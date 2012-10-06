@@ -10,16 +10,16 @@ How to use.<br>
 
 2) Compiling a program<br>
 
-    <i>$ g++ program_name.cpp -o main -L/path/to/library -llib</i><br>
+    $ g++ program_name.cpp -o main -L/path/to/library -llib
     
 3) Execute your program<br>
 
-    $ <i>./main</i><br>
+    $ ./main
 
 If you got following error:<br>
 
-    <i>./main: error while loading shared libraries: liblib.so: <br>
-    cannot open shared object file: No such file or directory</i><br>
+    ./main: error while loading shared libraries: liblib.so: 
+    cannot open shared object file: No such file or directory
     
 Then create symbolic link of library:
 
